@@ -1,0 +1,196 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "http://www.oviyum.com/"
+languageCode = "en-AU"
+title = "OVIYUM Technologies"
+publishDir = "/var/www"
+
+# Metadata
+[params]
+  author = "Oviyum"
+  description = "Cloud, Mobile, Ai"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/home.jpg"
+  title = "We 'Engineer' ideas."
+  description = "An outsourced product development company"
+
+# Navigation section
+[params.nav]
+  mission = "Technology"
+  services = "Our work"
+  team = "People"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "images/logo.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/t1.jpg"
+    [[params.mission.images.list]]
+      img = "images/t2.jpg"
+    [[params.mission.images.list]]
+      img = "images/t3.jpg"
+    [[params.mission.images.list]]
+      img = "images/t4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Cloud & Mobile"
+    subtitle = "Migrating your business to the cloud, Maximising your potential with enterprise class applications"
+    description = "<p>We emphasize on monitoring and evaluating your prevailing application portfolio for improvement and betterment, and employ the science of cloud technologies to transpose the existing portfolio or to shift to newer platforms.</p><ul class='checked'><li>Cloud-enabled application development</li><li>Data management and analytics</li><li>Cloud integration</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "AI & Vision"
+    subtitle = "Pushing your business into every pocket. Effectively."
+    description = "<p>Oviyum offers mobile application development solutions for finding target markets and to boost sales and expand business productivity.</p><ul class='checked'><li>iOs</li><li>Android</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Hardware"
+    subtitle = "Lets harness the true potential of your and make your business smarter"
+    description = "<p>We recognise the nuances of technology and implement machine learning, deep learning, language processing and different data sciences to make sure that we produce AI that's powerful and reliable.</p><ul class='checked'><li>Deep Learning</li><li>Visual Processing</li><li>Neural Computing</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+
+# Services section
+[params.services]
+  enable = true
+  # video = true
+  # vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Work"
+  description = "Products that we have helped build"
+
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Fleetfoot"
+    description = "FleetFoot is a fully integrated fleet management platform on the cloud, that provides a scalable, end-to end solution to the Fleet Rental Service Industry."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "NetLite"
+    description = "Netlite is a Volktek's embedded Element Management System that allows users to view the topology map of connected devices and neighboring switches along with the link status."
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+   enable = true
+  title = "Meet The Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "For any clarification or inquiry on how Oviyum can assist you, please contact us."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Oviyum Technologies. All Rights Reserved. </small></p>"
+  github = "https://github.com/Oviyum"
+  # twitter = "#"
+  # facebook = "#"
+  # vine = "#"
+  linkedin = "#"
+  # instagram = "#"
