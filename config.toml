@@ -13,7 +13,7 @@ publishDir = "/var/www"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/home.jpg"
-  title = "We 'Engineer' ideas."
+  title = "We <b>Engineer</b> ideas."
   description = "An outsourced product development company"
 
 # Navigation section
