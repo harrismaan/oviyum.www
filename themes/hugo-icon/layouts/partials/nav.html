@@ -17,9 +17,17 @@
 	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
+	{{ if .Site.Params.partners.enable }}
+	<a href="#" data-nav-section="partners">{{ with .Site.Params.nav.partners }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+	
 	{{ if .Site.Params.contact.enable }}
 	<a href="#" data-nav-section="contact">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
+
+	{{ if .Site.Params.hiring.enable }}
+	<a href="#" data-nav-section="hiring" style="color:red">{{ with .Site.Params.nav.hiring }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}	
 	
       </div>
     </div>

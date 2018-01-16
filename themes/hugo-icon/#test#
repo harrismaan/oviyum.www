@@ -1,0 +1,16 @@
+Contract
+	Events:
+		BillingEvent
+	SubClasses:
+		HandoverConfiguration
+	Handlers:
+		InitiateBillingEvent
+Account
+	SubClasses:
+		 BillingEvent ( BillinEventInterface)
+	Handlers:
+Handover
+	Events:
+		HandoverCompleted
+	Handlers:
+		

@@ -21,7 +21,9 @@ publishDir = "/var/www"
   mission = "Technology"
   services = "Our work"
   team = "People"
+  partners = "Partners"  
   contact = "Get In Touch"
+  hiring = "We are hiring!"  
   # Include logo instead if HOME:
   logo = "images/logo.png"
 
@@ -45,22 +47,22 @@ publishDir = "/var/www"
     weight = 1
     name = "marketing"
     title = "Cloud & Mobile"
-    subtitle = "Migrating your business to the cloud, Maximising your potential with enterprise class applications"
-    description = "<p>We emphasize on monitoring and evaluating your prevailing application portfolio for improvement and betterment, and employ the science of cloud technologies to transpose the existing portfolio or to shift to newer platforms.</p><ul class='checked'><li>Cloud-enabled application development</li><li>Data management and analytics</li><li>Cloud integration</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "Gain business agility, embrace the mobile & cloud computing revolution"
+    description = "<p>We use best in class cloud technologies and native application development strategies.Our emphasis on right software engineering principles and culture delivers a high quality product for you.</p><ul class='checked'><li>Cloud-enabled application development</li><li>Cloud integration</li><li>iOs</li><li>Android</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
     name = "analysis"
     title = "AI & Vision"
-    subtitle = "Pushing your business into every pocket. Effectively."
-    description = "<p>Oviyum offers mobile application development solutions for finding target markets and to boost sales and expand business productivity.</p><ul class='checked'><li>iOs</li><li>Android</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "Building smart and visually intelligent systems"
+    description = "<p>Your apps and workflows can be significantly more intuitive and efficient using AI & Computer Vision. Oviyum can boost your business and simplify customer experiences leveraging the best of algorithms - cloud or on premise. </p><ul class='checked'><li>Deep Learning</li><li>Visual Processing</li><li>Neural Computing</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "strategy"
     title = "Hardware"
-    subtitle = "Lets harness the true potential of your and make your business smarter"
-    description = "<p>We recognise the nuances of technology and implement machine learning, deep learning, language processing and different data sciences to make sure that we produce AI that's powerful and reliable.</p><ul class='checked'><li>Deep Learning</li><li>Visual Processing</li><li>Neural Computing</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "Looking to build a solution that requires hardware?"
+    description = "<p>Consumer experiences can become significantly more intuitive with tangible extensions. They can be redefined with hardware at the core of your strategy. At the same time building hardware is multi-disciplinary exercise. Our expertise in design thinking & prototyping can help bring your idea to life.</p><ul class='checked'><li>Consulting</li><li>Prototyping</li><li>Support for manufacturing</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 
 # Services section
@@ -182,6 +184,20 @@ publishDir = "/var/www"
   enable = true
   title = "Get In Touch"
   message = "For any clarification or inquiry on how Oviyum can assist you, please contact us."
+
+# Hiring section
+[params.hiring]
+  enable = true
+  title = "Hiring"
+  message = "For any clarification or inquiry on how Oviyum can assist you, please contact us."
+
+# Partners section
+[params.partners]
+  enable = false
+  title = "Partners"
+  message = "For any clarification or inquiry on how Oviyum can assist you, please contact us."
+
+
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.

@@ -34,6 +34,10 @@
 	{{ partial "team.html" .}}
 	{{ end }}
 
+	{{ if .Site.Params.partners.enable }}
+	{{ partial "partners.html" .}}
+	{{ end }}	
+
 	{{ if .Site.Params.contact.enable }}
 	{{ partial "contact-form.html" .}}
 	{{ end }}
