@@ -14,5 +14,33 @@
 <!-- Magnific Popup -->
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/magnific-popup-options.js"></script>
+
+<!-- Amazon SNS code -->
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.187.0.min.js"></script>
+<!-- Initialize the Amazon Cognito credentials provider -->
+<script>
+  AWS.config.region = 'us-west-2';
+  AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+  IdentityPoolId: 'us-west-2:8a6f0fba-dd25-4612-a42b-b687bcfe1cfd',
+  });
+  var sns = new AWS.SNS();
+
+</script>
+<!-- Contact US JS -->
+<script>
+  $( "#contactly" ).submit(function( event ) {
+  var params = { TargetArn:'arn:aws:sns:us-west-2:801547970177:contact_us'
+  };
+  params['Message'] = $("#contactly").serialize();
+  params['Subject'] = $("#contactly").find('input[name="_subject"]').val();
+  sns.publish(params, function(err,data) {
+  if (err) {console.log('Error sending a message', err);
+  } else { console.log('Sent message:', data.MessageId);}
+  });
+  $("#contactly").css('visibility','hidden');
+  event.preventDefault();
+});
+</script>
 <!-- Main JS -->
 <script src="js/main.js"></script>
+

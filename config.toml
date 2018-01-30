@@ -5,6 +5,7 @@ languageCode = "en-AU"
 title = "OVIYUM Technologies"
 publishDir = "/var/www"
 
+
 # Metadata
 [params]
   author = "Oviyum"
@@ -20,7 +21,7 @@ publishDir = "/var/www"
 [params.nav]
   mission = "Technology"
   services = "Our work"
-  team = "People"
+  team = "Thoughts & Experiments"
   partners = "Partners"  
   contact = "Get In Touch"
   hiring = "We are hiring!"  
@@ -130,43 +131,11 @@ publishDir = "/var/www"
 
 # Team section
 [params.team]
-   enable = true
-  title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  enable = true
+  title = "Thoughts & Experiments"
+  description = "Visit our blog"
+  url = "https://medium.com/@oviyum"
 
-  [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
-
-  [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-
-  [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -190,6 +159,7 @@ publishDir = "/var/www"
   enable = true
   title = "Hiring"
   message = "For any clarification or inquiry on how Oviyum can assist you, please contact us."
+  url = "https://medium.com/@oviyum/hiring-a-good-programmer-4f2f1871c6c8"
 
 # Partners section
 [params.partners]

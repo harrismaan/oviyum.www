@@ -14,7 +14,7 @@
 	{{ end }}
 
 	{{ if .Site.Params.team.enable }}
-	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
+	<a href="{{.Site.Params.team.url}}" class="external" target="_blank">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.partners.enable }}
@@ -26,7 +26,7 @@
 	{{ end }}
 
 	{{ if .Site.Params.hiring.enable }}
-	<a href="#" data-nav-section="hiring" style="color:red">{{ with .Site.Params.nav.hiring }}{{ . | markdownify }}{{ end }}</a>
+	<a href="{{.Site.Params.hiring.url}}" class="external" target="_blank"  data-nav-section="hiring" style="color:red">{{ with .Site.Params.nav.hiring }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}	
 	
       </div>
